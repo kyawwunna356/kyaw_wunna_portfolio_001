@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { Project } from "../../data";
-import Bubble from "../utils/Bubble";
 import Tag from "../utils/Tag";
 import AnimatedImage from "../utils/AnimatedImage";
 import Description from "../utils/Description";
@@ -23,8 +22,6 @@ function Project({ reverse, project }: ProjectProps) {
       <AnimatedImage
         flexBasis={true}
         className="h-[200px] md:h-[500px] w-full"
-        text={`00${project.id}`}
-        bubblePosition="-top-10 left-10"
         animationStartPosition="top center"
         image={project.images[0]}
       />

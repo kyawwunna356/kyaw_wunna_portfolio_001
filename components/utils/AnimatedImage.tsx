@@ -1,19 +1,15 @@
 import  { gsap, Power4 } from 'gsap';
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react'
-import { Project } from '../../data';
-import Bubble from './Bubble';
 
 interface AnimatedImageProps {
   image: string,
   className: string,
-  bubblePosition: string,
-  text: string  | React.ReactNode,
   flexBasis?: boolean
   animationStartPosition: string
 }
 
-function AnimatedImage({image,className,bubblePosition,text,flexBasis=false,animationStartPosition}: AnimatedImageProps) {
+function AnimatedImage({image,className,flexBasis=false,animationStartPosition}: AnimatedImageProps) {
   const comp1 = useRef(null);
   // const wrapperClassName = ['image-wrapper relative', className].join(' ');
 
@@ -57,7 +53,6 @@ function AnimatedImage({image,className,bubblePosition,text,flexBasis=false,anim
 
   return (
         <div className={flexBasis ? 'w-full  lg:basis-2/3 relative ': 'w-full relative'} ref={comp1}>
-          {/* <Bubble className={bubblePosition} animationStartPosition={animationStartPosition}>{text}</Bubble> */}
         <div className={`imageWrapper relative ${className}`}> 
           <Image
             fill
