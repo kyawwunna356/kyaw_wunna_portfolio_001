@@ -9,6 +9,7 @@ import ProjectSection from "../components/ProjectSection/ProjectSection";
 import Layout from "../components/utils/Layout";
 import FooterSection from "../components/footer/FooterSection";
 import SkillSection from "../components/SkillSection/SkillSection";
+import StickNav from "../components/utils/StickNav";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -22,16 +23,10 @@ const Home: NextPage = () => {
         <title>Kyaw wunna #portfolio</title>
         <meta name="description" content="Kyaw wunna's portfolio" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet"/> 
-        {/* <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin:wght@400;600;700&family=Gruppo&family=Righteous&display=swap" rel="stylesheet"/>  */}
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cabin:wght@400;600;700&family=Gruppo&family=Quicksand&family=Righteous&family=Unbounded:wght@400;600;700&display=swap" rel="stylesheet"/> 
       </Head>
 
       <Layout>
+        <StickNav/>
         <HeroSection />
         <AboutSection />
         <SkillSection />

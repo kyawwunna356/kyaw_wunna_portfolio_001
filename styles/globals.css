@@ -13,10 +13,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #0e0e0e;
-  @apply text-gray-200
+  @apply text-gray-200;
 }
 
 a {
@@ -32,44 +32,29 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+body {
+  @apply font-quicksand
+}
 .hero-container {
-  font-family: 'Unbounded', sans-serif;
-  @apply text-[9vw] uppercase leading-loose font-normal text-gray-100 md:text-[7vw] md:leading-tight;
-}
-/* 
-.left-border{
-  border-left: 1px solid white;
+  /* font-family: 'Unbounded', sans-serif; */
+  @apply font-unbounded text-[9vw] uppercase leading-loose font-normal text-gray-100 md:text-[7vw] md:leading-tight;
 }
 
-
-.right-border{
-  border-right: 1px solid white;
-} */
-/* 
-.imageWrapper{
-  filter: grayscale(0) !important;
-} */
 
 .name{
-  font-family: 'Gruppo'
-}
-.project{
-  font-family: 'Quicksand';
+  @apply font-gruppo
+
 }
 
 .project-name{
-  font-family: 'Gruppo';
+  @apply font-gruppo
 }
 
 .section-title{
-  font-family: 'Unbounded';
-  @apply text-[7vw]  text-orange-600 md:text-[4vw];
+  @apply font-unbounded text-[7vw]  text-orange-600 md:text-[4vw];
 }
 
 .footer-text-left{
-  font-family: 'Unbounded';
+  @apply font-unbounded
 }
 
-.footer-text-right{
-  font-family: 'Quicksand';
-}

@@ -6,7 +6,7 @@ import Project from "./Project";
 
 function ProjectSection() {
   return (
-    <section>
+    <section id="project">
       <SectionTitle title="Recent Works" />
       {ProjectsData.map((project) => (
         <section key={project.id} className="mt-[200px] md:mt-[400px]">

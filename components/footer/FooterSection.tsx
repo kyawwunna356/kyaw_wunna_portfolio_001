@@ -64,6 +64,7 @@ function FooterSection() {
   }, []);
   return (
     <div
+      id="contact"
       ref={comp}
       className=" jusitfy-center flex h-screen flex-col items-center gap-[10vh] overflow-hidden pt-20 md:pt-40 lg:flex-row lg:justify-between lg:pt-0"
     >

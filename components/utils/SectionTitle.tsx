@@ -36,6 +36,9 @@ function SectionTitle({ title }: sectionTitleProps) {
     >
       <div className="overflow-hidden">
         <p className="title uppercase" ref={titleRef}>{title}</p>
+        {/* <div>
+          {title.split('').map((char,i) => <span key={i} className="title uppercase">{char}</span>)}
+        </div> */}
       </div>
     </section>
   );

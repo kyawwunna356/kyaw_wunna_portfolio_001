@@ -75,7 +75,7 @@ function AboutSection() {
   }, []);
 
   return (
-    <section className="min-h-[150vh] lg:h-[200vh]" ref={comp}>
+    <section className="min-h-[150vh] lg:h-[200vh]" ref={comp} id="about">
       <SectionTitle title="About Me" />
 
       <section className="flex h-[70vh] items-center justify-center ">
@@ -98,7 +98,7 @@ function AboutSection() {
             />
           </div>
           <div className="absolute -bottom-[250px] -right-[350px] hidden w-[600px] overflow-hidden lg:block ">
-            <p className="description bg-[#131313] px-8 py-4 text-base tracking-wide rounded-lg">
+            <p className="description bg-[#0e0e0e] px-8 py-4 text-base tracking-wide rounded-lg">
               I am a self-taught software developer with a passion for
               problem-solving and delivering high-quality solutions. Despite not
               having a computer science degree, I have developed a deep

@@ -64,7 +64,7 @@ function Description({ name, description, techs, link }: DescriptionProps) {
     <div ref={comp}>
       <div ref={containerRef} className="project overflow-hidden">
         <h1
-          className="project-name mb-6 h-14 overflow-hidden text-5xl font-bold tracking-wide text-orange-500"
+          className="project-name mb-6 h-14 overflow-hidden text-5xl font-bold tracking-wide text-[orange-500]"
           ref={nameRef}
         >
           {name}
