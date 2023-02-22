@@ -21,7 +21,7 @@ function SectionTitle({ title }: sectionTitleProps) {
         scrollTrigger: {
           trigger: ".title",
           scrub: 1,
-          markers: true,
+          // markers: true,
           start: "top +=80%",
         },
       });

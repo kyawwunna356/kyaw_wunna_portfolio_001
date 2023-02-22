@@ -15,7 +15,7 @@ function SkillSection() {
         scrollTrigger: {
           trigger: ".skill-text",
           scrub: 1,
-          markers: true,
+          // markers: true,
           start: "top +=80%",
         },
       });

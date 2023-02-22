@@ -36,7 +36,7 @@ function Description({ name, description, techs, link }: DescriptionProps) {
         scrollTrigger: {
           trigger: containerRef.current,
           scrub: 1,
-          markers: true,
+          // markers: true,
           start: isTabletOrMobile ? 'top +=90%' : "top +=80%",
         },
       });
@@ -50,7 +50,7 @@ function Description({ name, description, techs, link }: DescriptionProps) {
         scrollTrigger: {
           trigger: containerRef.current,
           scrub: 1,
-          markers: true,
+          // markers: true,
           start: isTabletOrMobile ? 'top +=90%' : "top +=80%",
           end: "bottom center",
         },

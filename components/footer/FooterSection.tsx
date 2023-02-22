@@ -17,7 +17,7 @@ function FooterSection() {
           trigger: ".footer-text-left",
           start: "top +=100%",
           end: "top center",
-          markers: true,
+          // markers: true,
           scrub: 1,
         },
       });
@@ -30,7 +30,7 @@ function FooterSection() {
           trigger: ".footer-text-left",
           start: "top +=80%",
           end: "top center",
-          markers: true,
+          // markers: true,
           scrub: 1,
         },
       });
@@ -42,7 +42,7 @@ function FooterSection() {
           trigger: ".vertical-line",
           start: "top +=80%",
           end: "top center",
-          markers: true,
+          // markers: true,
           scrub: 0.5,
         },
       });
@@ -54,7 +54,7 @@ function FooterSection() {
           trigger: ".vertical-line",
           start: "top +=80%",
           end: "bottom center",
-          markers: true,
+          // markers: true,
           scrub: 0.5,
         },
       });
