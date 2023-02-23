@@ -10,10 +10,11 @@ interface DescriptionProps {
   name: string;
   description: string;
   techs: string[];
-  link: string
+  link: string,
+  github: string;
 }
 
-function Description({ name, description, techs, link }: DescriptionProps) {
+function Description({ name, description, techs, link, github}: DescriptionProps) {
   const comp = useRef(null);
   const nameRef = useRef(null);
   const descriptionRef = useRef(null);
@@ -80,7 +81,7 @@ function Description({ name, description, techs, link }: DescriptionProps) {
           ))}
         </div>
         <div className="flex items-center justify-start gap-6">
-            <Link href='/'>
+            <Link href={github} target="_blank">
               <button className="flex items-center gap-2 hover:text-orange-600">
                 <span><FiGithub /></span>
                 <span>Git Repo</span>

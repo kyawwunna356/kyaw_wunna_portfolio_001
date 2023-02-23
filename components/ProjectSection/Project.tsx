@@ -27,7 +27,7 @@ function Project({ reverse, project }: ProjectProps) {
       />
       {/* right-column  flex-column*/}
         <div className="flex basis-1/2 flex-col items-center justify-center gap-20 text-start">
-          <Description name={project.name} techs={project.techs} description={project.description} link={project.link}/>
+          <Description name={project.name} techs={project.techs} description={project.description} link={project.link} github={project.github}/>
           <button></button>
         {/* <AnimatedImage
           className="relative h-[400px] w-full"
