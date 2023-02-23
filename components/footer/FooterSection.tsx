@@ -96,9 +96,9 @@ function FooterSection() {
         </span>
 
         <div className="footer-text-right item-center flex w-3/5 justify-start gap-4">
-          <Link href="/"><FaFacebook /></Link>
-          <Link href="/"><RiInstagramFill /></Link>
-          <Link href="/"><FaLinkedin /></Link>
+          <Link href="https://www.facebook.com/kyaw.wunna.58367/"><FaFacebook /></Link>
+          <Link href="https://www.instagram.com/ikk_kyuu/"><RiInstagramFill /></Link>
+          <Link href="https://www.linkedin.com/in/kyaw-wunna-45a50822b/"><FaLinkedin /></Link>
         </div>
       </div>
     </div>
